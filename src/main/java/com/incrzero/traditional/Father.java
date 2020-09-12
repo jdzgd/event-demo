@@ -10,6 +10,7 @@ import java.util.Observer;
  */
 public class Father implements Observer {
 
+    @Override
     public void update(Observable o, Object arg) {
         System.out.println(o);
         System.out.println("Father获取新闻");

@@ -16,6 +16,7 @@ public class AppleNewsSubject extends Observable {
         AppleNewsSubject subject = new AppleNewsSubject();
         subject.addObserver(new Father());
         subject.addObserver(new Mother());
+        subject.addObserver((x, y) -> System.out.println("妹妹收到信息：" + y));
         subject.setChanged();
         subject.notifyObservers("今天天气很好！");
     }

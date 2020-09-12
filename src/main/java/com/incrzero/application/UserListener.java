@@ -13,7 +13,7 @@ public class UserListener {
 
     @EventListener
     public void processNews(AppleNewsEvent event) {
-        System.out.println(event.getMessage());
+        System.out.println("监听到消息："+event.getMessage());
     }
 
 }
