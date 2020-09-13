@@ -23,6 +23,7 @@
     <modules>
         <module>traditional-jdk</module>
         <module>event-listener</module>
+        <module>sse</module>
     </modules>
 
     <dependencies>

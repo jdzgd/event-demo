@@ -1,4 +1,4 @@
-package application;
+package com.incrzero.application;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;

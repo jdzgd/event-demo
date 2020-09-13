@@ -1,4 +1,4 @@
-package application;
+package com.incrzero.application;
 
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
