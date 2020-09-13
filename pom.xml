@@ -6,6 +6,7 @@
 
     <groupId>com.incrzero</groupId>
     <artifactId>event-demo</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -19,6 +20,10 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>traditional-jdk</module>
+        <module>event-listener</module>
+    </modules>
 
     <dependencies>
         <dependency>

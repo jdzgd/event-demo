@@ -1,4 +1,4 @@
-package com.incrzero.application;
+package application;
 
 import org.springframework.context.ApplicationEvent;
 
